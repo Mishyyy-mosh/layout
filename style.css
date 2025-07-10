@@ -1,0 +1,121 @@
+/* General reset and font */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #001f3f, #0074D9);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header img {
+  width: 100px;
+  display: block;
+  margin: 10px auto 0;
+}
+
+/* Navigation */
+nav {
+  background-color: #c70000;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 28px;
+  color: #001f3f;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #001f3f;
+  margin: 10px 0;
+}
+
+/* Buttons */
+button {
+  background-color: #1e40ff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0033cc;
+}
+
+/* Images */
+section img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+/* Contact Section */
+#contact {
+  background-color: #f2f2f2;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #001f3f;
+  margin-bottom: 20px;
+}
+
+.contact-box {
+  background-color: white;
+  display: inline-block;
+  padding: 20px 40px;
+  border: 2px solid #001f3f;
+  border-radius: 10px;
+}
+
+
+/* Footer */
+footer {
+  background-color: #c70000;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
